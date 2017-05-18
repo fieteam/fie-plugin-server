@@ -14,21 +14,18 @@
     "lint": "./node_modules/.bin/eslint --fix ./"
   },
   "author": {
-    "name": "擎空",
-    "email": "zhenwu.czw@alibaba-inc.com"
+    "name": "zernmal",
+    "email": "zernmal@foxmail.com"
   },
   "maintainers": [
     {
-      "name": "擎空",
-      "email": "zhenwu.czw@alibaba-inc.com"
+      "name": "zernmal",
+      "email": "zernmal@foxmail.com"
     }
   ],
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
-  },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.alibaba-inc.com:fie/fie-plugin-server.git"
+    "url": "git@github.com:fieteam/fie-plugin-server.git"
   },
   "keyword": [],
   "dependencies": {
