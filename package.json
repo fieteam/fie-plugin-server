@@ -1,6 +1,6 @@
 {
   "name": "fie-plugin-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fie-plugin-server description",
   "main": "index.js",
   "fieOption": {
@@ -42,6 +42,12 @@
     "eslint-config-ali": "^1.0.0"
   },
   "changeLog": [
+    {
+      "version": "1.0.1",
+      "log": [
+        "更新 npm 发布配置"
+      ]
+    },
     {
       "version": "1.0.0",
       "log": [
