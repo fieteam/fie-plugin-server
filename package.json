@@ -1,0 +1,58 @@
+{
+  "name": "fie-plugin-server",
+  "version": "1.0.1",
+  "description": "fie-plugin-server description",
+  "main": "index.js",
+  "fieOption": {
+    "thumb": "http://img3.tbcdn.cn/5476e8b07b923/TB15lxxPXXXXXXUaXXXXXXXXXXX",
+    "type": "plugin",
+    "update": false,
+    "moduleName": "fie-plugin-server",
+    "chName": "fie-plugin-server"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --fix ./"
+  },
+  "author": {
+    "name": "zernmal",
+    "email": "zernmal@foxmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "zernmal",
+      "email": "zernmal@foxmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fieteam/fie-plugin-server.git"
+  },
+  "keyword": [],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "fie-api": "^1.3.5",
+    "koa": "^1.2.0",
+    "koa-logger": "^1.3.0",
+    "koa-serve-index": "^1.1.1",
+    "koa-static": "^2.0.0",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-ali": "^1.0.0"
+  },
+  "changeLog": [
+    {
+      "version": "1.0.1",
+      "log": [
+        "更新 npm 发布配置"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "log": [
+        "添加基本功能"
+      ]
+    }
+  ]
+}
